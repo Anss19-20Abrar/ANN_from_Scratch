@@ -1,67 +1,74 @@
 # Scratch_ANN
 **Neural Network Implementation**
-**Overview**
-Provide a brief introduction to the repository and the purpose of the neural network code.
-**
-Requirements**
-Outline the necessary dependencies and libraries required to run the code successfully.
-**
-File Structure**
-Describe the structure of the files and their purposes in the repository.
-**
-Neural Network Structure
-**
-Explain the structure of the neural network used in the code, detailing the layers, activation functions, and the number of neurons in each layer.
-![image](https://github.com/Anss19-20Abrar/Strach_ANN/assets/88234138/0d5c7120-d5cb-48c7-bf00-ba43f69a519a)
-**
-Code Explanation
-**
-Single Neuron
-Explain the code for a single neuron:
 
-Description of the input data and size
-Initialization of weights and bias
-Calculation of the weighted sum
-Activation using a step function and a sigmoid function
-Output interpretation
-**Multi-Layer Neural Network**
-Describe the multi-layer neural network's implementation:
-**Input Layer**
-Details of the input data and weights
-Calculation of the weighted sum
-Application of activation functions
-**Output interpretation**
-**Hidden Layers**
-Explanation of hidden layer(s) weights, biases, and activation
-Calculation of the weighted sum
-Activation function application
-Output interpretation
-Output Layer
-Details of the final neuron weights, biases, and activation
-Calculation of the weighted sum
-Activation function application
-Output interpretation
-Usage
-Provide instructions on how to use the code, including:
+## Overview
+This repository contains the implementation of a neural network. The neural network's purpose is to provide a foundation for understanding and applying artificial neural networks for various tasks.
 
-Setting up the input data
-Running the code for single/multi-neuron implementation
-Interpreting the output
-Customization
-**Explain how the code can be customized:**
-Changing the number of layers and neurons
-Implementing different activation functions
-Modifying threshold values for activation functions
-Testing
-Instructions on how to test the code with different input data or tweak the parameters.
+## Requirements
+Ensure the following dependencies are installed:
+- Python 
+- NumPy
+- Matplotlib
 
-**Conclusion**
+## Neural Network Structure
+The neural network comprises the following layers:
+- **Input Layer**: X neurons
+- **Hidden Layers**: Y layers, each with Z neurons and ReLU activation
+- **Output Layer**: 1 neuron with Sigmoid activation
+
+![Neural Network Structure](https://github.com/Anss19-20Abrar/ANN_from_Scratch/assets/88234138/baa0a95e-57f0-4936-8d68-70717126c4ec)
+
+## Code Explanation
+
+### Single Neuron
+- **Input Data**: Describe input data and size.
+- **Initialization**: Weights and bias initialization.
+- **Weighted Sum Calculation**
+- **Activation**: Step and sigmoid functions.
+- **Output Interpretation**
+
+### Multi-Layer Neural Network
+#### Input Layer
+- **Input Data and Weights**
+- **Weighted Sum Calculation**
+- **Activation Functions Application**
+
+#### Hidden Layers
+- **Weights, Biases, and Activation**
+- **Weighted Sum Calculation**
+- **Activation Function Application**
+- **Output Interpretation**
+
+#### Output Layer
+- **Final Neuron Weights, Biases, and Activation**
+- **Weighted Sum Calculation**
+- **Activation Function Application**
+- **Output Interpretation**
+
+## Usage
+To use the code:
+1. Set up input data.
+2. Run the code for single/multi-neuron implementation.
+3. Interpret the output.
+
+## Customization
+The code can be customized by:
+- Changing the number of layers and neurons.
+- Implementing different activation functions.
+- Modifying threshold values for activation functions.
+
+## Testing
+Instructions on testing the code with different input data or tweaking parameters.
+
+## Conclusion
 Summarize the content, its significance, and potential future improvements or modifications.
-**Acknowledgments**
-Credit any sources, libraries, or inspirations used in the development of the code.
 
-**Authors**
-Hafiz Ans
-anssabrar11@gmail.com
-**License**
+## Acknowledgments
+Give credit to any sources, libraries, or inspirations used in the development of the code.
+
+## Authors
+- **Hafiz Ans**
+  - Email: anssabrar11@gmail.com
+
+## License
 Specify the type of license for the code and any usage restrictions.
